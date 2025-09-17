@@ -1,9 +1,12 @@
 {
   "version": 2,
+  "buildCommand": "cd SchoolOrientation && npm install && npm run build",
+  "outputDirectory": "SchoolOrientation/dist",
+  "installCommand": "cd SchoolOrientation && npm install",
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/SchoolOrientation/client/$1"
+      "dest": "/index.html"
     }
   ]
 }
