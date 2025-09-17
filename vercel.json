@@ -4,7 +4,7 @@
 {
   "version": 2,
   "buildCommand": "cd SchoolOrientation && npm install && npm run build",
-  "outputDirectory": "SchoolOrientation/dist",
+  "outputDirectory": "SchoolOrientation/dist/public",
   "installCommand": "cd SchoolOrientation && npm install",
   "routes": [
     {
